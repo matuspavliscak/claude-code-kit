@@ -6,7 +6,7 @@ A collection of reusable [Claude Code](https://docs.anthropic.com/en/docs/claude
 
 | Skill | Description |
 |-------|-------------|
-| [vpn](skills/vpn/) | Connect/disconnect Cisco Secure Client VPN via CLI using openconnect |
+| [vpn](skills/vpn/) | Connect/disconnect Cisco AnyConnect VPN via CLI using openconnect |
 
 ## Installation
 
