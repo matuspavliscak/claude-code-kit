@@ -1,0 +1,22 @@
+{
+  "name": "matuspavliscak-claude-code-kit",
+  "owner": {
+    "name": "Matus Pavliscak",
+    "email": "matus.pavliscak@gmail.com"
+  },
+  "metadata": {
+    "description": "Claude Code skills for VPN, DevOps, and productivity",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "vpn",
+      "description": "Connect and disconnect Cisco Secure Client (AnyConnect) VPN via openconnect CLI with certificate auth and macOS Keychain integration",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./.claude/skills/vpn"
+      ]
+    }
+  ]
+}
