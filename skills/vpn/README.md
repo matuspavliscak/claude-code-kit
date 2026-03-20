@@ -1,6 +1,6 @@
-# VPN — Cisco AnyConnect via CLI
+# VPN — Cisco Secure Client (AnyConnect) via CLI
 
-Connect and disconnect Cisco AnyConnect VPN from Claude Code using `openconnect` — no GUI automation needed.
+Connect and disconnect Cisco Secure Client VPN from Claude Code using `openconnect` — no GUI automation needed.
 
 ## Why?
 
