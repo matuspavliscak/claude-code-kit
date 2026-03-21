@@ -13,10 +13,10 @@ Connect and disconnect Cisco Secure Client VPN from Claude Code using `openconne
 ## Quick Start
 
 ```
-/vpn:cisco-vpn connect       # connect to VPN
-/vpn:cisco-vpn disconnect    # disconnect
-/vpn:cisco-vpn status        # check connection state
-/vpn:cisco-vpn setup         # guided first-time setup
+/vpn-cisco:vpn connect       # connect to VPN
+/vpn-cisco:vpn disconnect    # disconnect
+/vpn-cisco:vpn status        # check connection state
+/vpn-cisco:vpn setup         # guided first-time setup
 ```
 
 > After installing, start a fresh `claude` session — `/reload-plugins` may not load skills correctly.
