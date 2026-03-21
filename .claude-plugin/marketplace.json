@@ -10,7 +10,7 @@
   },
   "plugins": [
     {
-      "name": "vpn",
+      "name": "cisco-vpn",
       "description": "Connect and disconnect Cisco Secure Client (AnyConnect) VPN via openconnect CLI with certificate auth and macOS Keychain integration",
       "source": "./",
       "strict": false,

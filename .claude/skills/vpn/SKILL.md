@@ -7,10 +7,12 @@ user_invocable: true
 Manage VPN connections via openconnect CLI (no GUI automation).
 
 ## Usage
-- `/vpn` or `/vpn connect` - connect to VPN
-- `/vpn disconnect` - disconnect from VPN
-- `/vpn status` - show current VPN state
-- `/vpn setup` - run full setup from scratch
+- `/vpn:cisco-vpn` or `/vpn:cisco-vpn connect` - connect to VPN
+- `/vpn:cisco-vpn disconnect` - disconnect from VPN
+- `/vpn:cisco-vpn status` - show current VPN state
+- `/vpn:cisco-vpn setup` - run full setup from scratch
+
+Note: Plugin skills use the `/{skill}:{plugin}` format. After installing, start a fresh `claude` session — `/reload-plugins` may not load skills correctly.
 
 ## Prerequisites
 - macOS with Homebrew
@@ -101,7 +103,7 @@ set -euo pipefail
 CONFIG="$HOME/.vpn/config"
 if [ ! -f "$CONFIG" ]; then
     echo "ERROR: No config found at $CONFIG"
-    echo "Run /vpn setup to configure."
+    echo "Run /vpn:cisco-vpn setup to configure."
     exit 1
 fi
 source "$CONFIG"
