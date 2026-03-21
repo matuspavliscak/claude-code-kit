@@ -47,6 +47,17 @@ Full step-by-step instructions are in [SKILL.md](SKILL.md).
 - PFX certificate from IT
 - VPN credentials (username + password)
 
+## Permissions
+
+To allow VPN commands to run without Claude Code prompting for permission each time, add these to your `~/.claude/settings.json` under `permissions.allow`:
+
+```json
+"Bash(~/.local/bin/vpn_connect.sh*):*",
+"Bash(~/.local/bin/vpn_disconnect.sh*):*",
+"Bash(pgrep openconnect*):*",
+"Bash(/opt/cisco/secureclient/bin/vpn state*):*"
+```
+
 ## Security
 
 - Passwords are never stored in files — macOS Keychain only
