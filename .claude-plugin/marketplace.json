@@ -15,7 +15,7 @@
       "source": "./",
       "strict": false,
       "skills": [
-        "./.claude/skills/vpn"
+        "./.claude/skills/vpn-cisco"
       ]
     }
   ]
