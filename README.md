@@ -10,7 +10,17 @@ A collection of reusable [Claude Code](https://docs.anthropic.com/en/docs/claude
 
 ## Installation
 
-### Option A: Copy what you need
+### Option A: Plugin install (recommended, requires [Claude Code](https://docs.anthropic.com/en/docs/claude-code))
+
+```bash
+# Add this repo as a marketplace
+/plugin marketplace add matuspavliscak/claude-code-kit
+
+# Install the VPN skill
+/plugin install vpn@matuspavliscak-claude-code-kit
+```
+
+### Option B: Copy what you need
 
 ```bash
 git clone https://github.com/matuspavliscak/claude-code-kit.git
@@ -20,7 +30,7 @@ cd claude-code-kit
 cp -r .claude/skills/vpn ~/.claude/skills/vpn
 ```
 
-### Option B: Just tell Claude
+### Option C: Just tell Claude
 
 ```
 Clone https://github.com/matuspavliscak/claude-code-kit and copy
